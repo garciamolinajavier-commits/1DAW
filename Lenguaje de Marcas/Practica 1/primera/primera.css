@@ -1,1 +1,45 @@
-primera.css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(247, 88, 88);
+    position: sticky;
+    top: 0;
+    
+}
+.logo{
+    padding: 1rem;
+    width: 200px;
+    height: auto;
+}
+header nav{
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+    align-items: center;
+    
+}
+
+header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    
+    
+}
+main{
+    background: url(https://champions.pokemon.com/_images/global/header/header-lg.jpg);
+    height: 100vb;
+    opacity: 80%;
+}
