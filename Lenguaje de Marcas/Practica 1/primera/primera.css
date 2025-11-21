@@ -9,13 +9,12 @@ header{
     align-items: center;
     background-color: rgb(247, 88, 88);
     position: sticky;
-    top: 0;
-    
+    top: 0;   
 }
 .logo{
     padding: 1rem;
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 100px;
 }
 header nav{
     width: 100%;
@@ -27,7 +26,6 @@ header nav ul{
     text-align: center;
     list-style: none;
     align-items: center;
-    
 }
 
 header a{
@@ -35,11 +33,33 @@ header a{
     text-decoration: none;
     font-size: 2rem;
     text-transform: uppercase;
-    
-    
 }
-main{
-    background: url(https://champions.pokemon.com/_images/global/header/header-lg.jpg);
-    height: 100vb;
-    opacity: 80%;
+section#imgPR{
+    background-image: url(./img/portada.jpg);
+    background-size: cover;
+    height: 80vh;  
+}
+section#p1{
+    background-image: url(./img/promo-bg.png);
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+
+}
+div text{
+    align-items: center;
+    justify-content: center;
+}
+
+div img{
+    border-radius: 10px;
+    
+    height: auto;
+    width: 50rem;
+    justify-content: flex-start;
+    
 }
